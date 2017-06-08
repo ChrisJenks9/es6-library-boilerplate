@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "es6LibraryBoilerplate": false
+  },
+  "rules": {
+    "new-cap": 0,
+    "func-names": 0
+  }
+}

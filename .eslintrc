@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "no-underscore-dangle": 0,
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "gulpfile.js",
+          "**/test/**",
+          "**/features/**"
+        ]
+      }
+    ],
+    "strict": 0,
+    "linebreak-style": 0,
+    "prefer-template": "off"
+  }
+}

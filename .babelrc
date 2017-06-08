@@ -1,0 +1,33 @@
+{
+  "env": {
+    "test": {
+      "presets": ["es2015"]
+    },
+    "production": {
+      "presets": [
+        [
+          "es2015",
+          {
+            "modules": false
+          }
+        ]
+      ],
+      "plugins": [
+        "external-helpers"
+      ]
+    },
+    "development": {
+      "presets": [
+        [
+          "es2015",
+          {
+            "modules": false
+          }
+        ]
+      ],
+      "plugins": [
+        "external-helpers"
+      ]
+    }
+  }
+}
